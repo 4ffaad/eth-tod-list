@@ -1,0 +1,157 @@
+{
+  "contractName": "TodoList",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058209ae501025684bdc31d3e3b4827295ee2823035b57657b72758d2d0417af60c340029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058209ae501025684bdc31d3e3b4827295ee2823035b57657b72758d2d0417af60c340029",
+  "sourceMap": "27:45:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:45:1;;;;;;;",
+  "deployedSourceMap": "27:45:1:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract TodoList {\r\n    uint taskCount;\r\n\r\n}\r\n",
+  "sourcePath": "C:/Users/daffa/OneDrive/Desktop/Dev/eth-to-do-list/contracts/TodoList.sol",
+  "ast": {
+    "absolutePath": "/C/Users/daffa/OneDrive/Desktop/Dev/eth-to-do-list/contracts/TodoList.sol",
+    "exportedSymbols": {
+      "TodoList": [
+        37
+      ]
+    },
+    "id": 38,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 37,
+        "linearizedBaseContracts": [
+          37
+        ],
+        "name": "TodoList",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 36,
+            "name": "taskCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 37,
+            "src": "52:14:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "52:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          }
+        ],
+        "scope": 38,
+        "src": "27:45:1"
+      }
+    ],
+    "src": "0:74:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/daffa/OneDrive/Desktop/Dev/eth-to-do-list/contracts/TodoList.sol",
+    "exportedSymbols": {
+      "TodoList": [
+        37
+      ]
+    },
+    "id": 38,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 37,
+        "linearizedBaseContracts": [
+          37
+        ],
+        "name": "TodoList",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 36,
+            "name": "taskCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 37,
+            "src": "52:14:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "52:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          }
+        ],
+        "scope": 38,
+        "src": "27:45:1"
+      }
+    ],
+    "src": "0:74:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2025-07-04T11:42:50.952Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
