@@ -1,20 +1,36 @@
 {
   "contractName": "TodoList",
-  "abi": [],
-  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058209ae501025684bdc31d3e3b4827295ee2823035b57657b72758d2d0417af60c340029",
-  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058209ae501025684bdc31d3e3b4827295ee2823035b57657b72758d2d0417af60c340029",
-  "sourceMap": "27:45:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:45:1;;;;;;;",
-  "deployedSourceMap": "27:45:1:-;;;;;",
-  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract TodoList {\r\n    uint taskCount;\r\n\r\n}\r\n",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "taskCount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xb6cb58a5"
+    }
+  ],
+  "bytecode": "0x608060405260008055348015601357600080fd5b506099806100226000396000f3fe608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663b6cb58a581146043575b600080fd5b348015604e57600080fd5b5060556067565b60408051918252519081900360200190f35b6000548156fea165627a7a72305820a2d2f709e49dc5e8dcac082e0ff8a175458c1950dc770901bc89e2f05cf025140029",
+  "deployedBytecode": "0x608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663b6cb58a581146043575b600080fd5b348015604e57600080fd5b5060556067565b60408051918252519081900360200190f35b6000548156fea165627a7a72305820a2d2f709e49dc5e8dcac082e0ff8a175458c1950dc770901bc89e2f05cf025140029",
+  "sourceMap": "27:54:1:-;;;76:1;52:25;;27:54;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:54:1;;;;;;;",
+  "deployedSourceMap": "27:54:1:-;;;;;;;;;;;;;;;;;;;;;;;52:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;52:25:1;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract TodoList {\r\n    uint public taskCount = 0;\r\n}\r\n\r\n",
   "sourcePath": "C:/Users/daffa/OneDrive/Desktop/Dev/eth-to-do-list/contracts/TodoList.sol",
   "ast": {
     "absolutePath": "/C/Users/daffa/OneDrive/Desktop/Dev/eth-to-do-list/contracts/TodoList.sol",
     "exportedSymbols": {
       "TodoList": [
-        37
+        38
       ]
     },
-    "id": 38,
+    "id": 39,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -34,20 +50,20 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 37,
+        "id": 38,
         "linearizedBaseContracts": [
-          37
+          38
         ],
         "name": "TodoList",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 36,
+            "id": 37,
             "name": "taskCount",
             "nodeType": "VariableDeclaration",
-            "scope": 37,
-            "src": "52:14:1",
+            "scope": 38,
+            "src": "52:25:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -64,24 +80,41 @@
                 "typeString": "uint256"
               }
             },
-            "value": null,
-            "visibility": "internal"
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "76:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
           }
         ],
-        "scope": 38,
-        "src": "27:45:1"
+        "scope": 39,
+        "src": "27:54:1"
       }
     ],
-    "src": "0:74:1"
+    "src": "0:85:1"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/daffa/OneDrive/Desktop/Dev/eth-to-do-list/contracts/TodoList.sol",
     "exportedSymbols": {
       "TodoList": [
-        37
+        38
       ]
     },
-    "id": 38,
+    "id": 39,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -101,20 +134,20 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 37,
+        "id": 38,
         "linearizedBaseContracts": [
-          37
+          38
         ],
         "name": "TodoList",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 36,
+            "id": 37,
             "name": "taskCount",
             "nodeType": "VariableDeclaration",
-            "scope": 37,
-            "src": "52:14:1",
+            "scope": 38,
+            "src": "52:25:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -131,23 +164,47 @@
                 "typeString": "uint256"
               }
             },
-            "value": null,
-            "visibility": "internal"
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "76:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
           }
         ],
-        "scope": 38,
-        "src": "27:45:1"
+        "scope": 39,
+        "src": "27:54:1"
       }
     ],
-    "src": "0:74:1"
+    "src": "0:85:1"
   },
   "compiler": {
     "name": "solc",
     "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x9f58a87f553Ce6502b967A9C355B5F520B59e8b0",
+      "transactionHash": "0x6df2075e9e0b516f021eaa9c9b76bc23eecd96c77e31de3495429da93a699009"
+    }
+  },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2025-07-04T11:42:50.952Z",
+  "updatedAt": "2025-07-04T11:50:42.197Z",
   "devdoc": {
     "methods": {}
   },
